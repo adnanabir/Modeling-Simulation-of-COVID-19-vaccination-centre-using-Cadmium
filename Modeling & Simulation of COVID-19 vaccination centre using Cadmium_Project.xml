@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Models>
+	<Model name="Vaccination_Centre_main" type="top model" description="coupled model for vaccination centre ">
+		<Inputs>
+			<Port name="" type="" description=""/>
+			...
+		</Inputs>
+		<Outputs>
+			<Port name="" type="" description=""/>
+			...
+		</Outputs>
+		<Files>
+			<File name="Vaccination_Centre_main.cpp" type="CPP" location=""/>
+			...
+		</Files>
+	
+	</Model>
+	<Model name="RD" type="atomic" description="atomic model for reception desk ">
+		<Inputs>
+			<Port name="" type="" description=""/>
+			...
+		</Inputs>
+		<Outputs>
+			<Port name="" type="" description=""/>
+			...
+		</Outputs>
+		<Files>
+			<File name="RD.hpp" type="HPP" location=""/>
+			...
+		</Files>
+	</Model>
+	<Model name="RDQ" type="atomic" description="atomic model for reception desk queue ">
+		<Inputs>
+			<Port name="" type="" description=""/>
+			...
+		</Inputs>
+		<Outputs>
+			<Port name="" type="" description=""/>
+			...
+		</Outputs>
+		<Files>
+			<File name="RDQ.hpp" type="HPP" location=""/>
+			...
+		</Files>
+	</Model>
+	<Model name="RGD" type="atomic" description="atomic model for registration desk ">
+		<Inputs>
+			<Port name="" type="" description=""/>
+			...
+		</Inputs>
+		<Outputs>
+			<Port name="" type="" description=""/>
+			...
+		</Outputs>
+		<Files>
+			<File name="RGD.hpp" type="HPP" location=""/>
+			...
+		</Files>
+	</Model>
+	<Model name="RGDQ" type="atomic" description="atomic model for reception desk queue ">
+		<Inputs>
+			<Port name="" type="" description=""/>
+			...
+		</Inputs>
+		<Outputs>
+			<Port name="" type="" description=""/>
+			...
+		</Outputs>
+		<Files>
+			<File name="RGDQ.hpp" type="HPP" location=""/>
+			...
+		</Files>
+	</Model>
+	<Model name="VW" type="atomic" description="atomic model for vaccination waiting room ">
+		<Inputs>
+			<Port name="" type="" description=""/>
+			...
+		</Inputs>
+		<Outputs>
+			<Port name="" type="" description=""/>
+			...
+		</Outputs>
+		<Files>
+			<File name="VW.hpp" type="HPP" location=""/>
+			...
+		</Files>
+	</Model>
+	<Model name="VH" type="atomic" description="atomic model for vaccination area help desk ">
+		<Inputs>
+			<Port name="" type="" description=""/>
+			...
+		</Inputs>
+		<Outputs>
+			<Port name="" type="" description=""/>
+			...
+		</Outputs>
+		<Files>
+			<File name="VH.hpp" type="HPP" location=""/>
+			...
+		</Files>
+	</Model>
+	<Model name="PVQ" type="atomic" description="atomic model for Pre Vaccination Queue ">
+		<Inputs>
+			<Port name="" type="" description=""/>
+			...
+		</Inputs>
+		<Outputs>
+			<Port name="" type="" description=""/>
+			...
+		</Outputs>
+		<Files>
+			<File name="PVQ.hpp" type="HPP" location=""/>
+			...
+		</Files>
+	</Model>
+	<Model name="VP" type="atomic" description="atomic model for vaccination pushing counter ">
+		<Inputs>
+			<Port name="" type="" description=""/>
+			...
+		</Inputs>
+		<Outputs>
+			<Port name="" type="" description=""/>
+			...
+		</Outputs>
+		<Files>
+			<File name="VP.hpp" type="HPP" location=""/>
+			...
+		</Files>
+	</Model><Model name="OB" type="atomic" description="atomic model for Post vaccination observation room ">
+		<Inputs>
+			<Port name="" type="" description=""/>
+			...
+		</Inputs>
+		<Outputs>
+			<Port name="" type="" description=""/>
+			...
+		</Outputs>
+		<Files>
+			<File name="OB.hpp" type="HPP" location=""/>
+			...
+		</Files>
+	</Model><Model name="FC" type="atomic" description="atomic model for Final Checkup ">
+		<Inputs>
+			<Port name="" type="" description=""/>
+			...
+		</Inputs>
+		<Outputs>
+			<Port name="" type="" description=""/>
+			...
+		</Outputs>
+		<Files>
+			<File name="FC.hpp" type="HPP" location=""/>
+			...
+		</Files>
+	</Model>
+	...
+</Models>
